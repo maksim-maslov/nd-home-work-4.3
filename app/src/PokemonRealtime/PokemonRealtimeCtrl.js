@@ -1,6 +1,6 @@
 'use strict';
 
-pokemonApp.controller('PokemonRealtimeCtrl', function($scope, mySocket, $routeParams) {
+userApp.controller('PokemonRealtimeCtrl', function($scope, mySocket, $routeParams) {
 
     $scope.username = $routeParams.userName;
     $scope.messages = [];
