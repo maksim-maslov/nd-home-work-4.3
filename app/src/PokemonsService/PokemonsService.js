@@ -5,11 +5,11 @@ angular
             return {
 
                 getPokemons: function() {
-                    return $http.get('http://pokeapi.co/api/v2/pokemon/?limit=10');
+                    return $http.get('https://pokeapi.co/api/v2/pokemon/?limit=10');
                 },
 
                 getPokemon: function(pokemonId) {
-                    return $http.get('http://pokeapi.co/api/v2/pokemon/' + pokemonId);
+                    return $http.get('https://pokeapi.co/api/v2/pokemon/' + pokemonId);
                 },
 
                 createPokemon: function(pokemonData) {
