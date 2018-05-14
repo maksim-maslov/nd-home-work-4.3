@@ -21,6 +21,10 @@ angular.module('UserApp')
           templateUrl: 'src/PokemonRealtime/PokemonRealtime.html',
           controller: 'PokemonRealtimeCtrl'
         })
+        .when('/edit/:userId', {
+          templateUrl: 'src/EditUser/EditUser.html',
+          controller: 'EditUserCtrl'
+        })
         .otherwise({
           redirectTo: '/'
         })
